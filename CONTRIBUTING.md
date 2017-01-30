@@ -1033,38 +1033,38 @@ Mantenibilidad en un ecosistema de muchos módulos más pequeños.
 Las diferencias incluyen:
 
 * [Estructura del módulo](#módulos)
-     * Uso de un archivo por modelo.
-     * Separación de datos y carpetas xml de demostración de datos.
-     * No cambia xml_ids mientras hereda.
-     * Añadir guía para usar dependencias externas.
-     * Definir un archivo separado para los ganchos de instalación.
+   * Uso de un archivo por modelo.
+   * Separación de datos y carpetas xml de demostración de datos.
+   * No cambia xml_ids mientras hereda.
+   * Añadir guía para usar dependencias externas.
+   * Definir un archivo separado para los ganchos de instalación.
 * [XML](#archivos xml)
-     * Evite utilizar el módulo actual en xml_id.
-     * Utilizar el campo explícito `user_id` para los registros del modelo `ir.filters`.
+   * Evite utilizar el módulo actual en xml_id.
+   * Utilizar el campo explícito `user_id` para los registros del modelo `ir.filters`.
 * [Python](# python)
-     * Utilizar los estándares de Python.
-     * Cumplimiento de las PEP8.
-     * Utilice ``#codificación:utf-8`` o ``#-*-codificación:utf-8-*-`` en la primera línea.
-     * Uso de importación relativa para archivos locales.
-     * Más modismos de python.
-     * Una forma de tratar largas líneas separadas por comas.
-     * Consejos sobre la documentación.
-     * No utilice CamelCase para las variables del modelo.
-     * Usar mayúsculas en subrayado para variables globales o constantes.
+   * Utilizar los estándares de Python.
+   * Cumplimiento de las PEP8.
+   * Utilice ``#codificación:utf-8`` o ``#-*-codificación:utf-8-*-`` en la primera línea.
+   * Uso de importación relativa para archivos locales.
+   * Más modismos de python.
+   * Una forma de tratar largas líneas separadas por comas.
+   * Consejos sobre la documentación.
+   * No utilice CamelCase para las variables del modelo.
+   * Usar mayúsculas en subrayado para variables globales o constantes.
 * [SQL](#sql)
-     * Añadir sección para No Inyección de SQL.
-     * Añadir sección para no omitir el ORM.
-     * Añadir sección para nunca confirmar la transacción.
+   * Añadir sección para No Inyección de SQL.
+   * Añadir sección para no omitir el ORM.
+   * Añadir sección para nunca confirmar la transacción.
 * [Campo](#campo)
-     * Una sugerencia para los valores predeterminados de la función.
-     * Utilizar la cadena de etiquetas predeterminada si es posible.
-     * Añadir el patrón de método inverso.
+   * Una sugerencia para los valores predeterminados de la función.
+   * Utilizar la cadena de etiquetas predeterminada si es posible.
+   * Añadir el patrón de método inverso.
 * [Se ha añadido una sección de pruebas](#pruebas)
 * [Git](#git)
-     * Sin prefijo de confirmación
-     * Estándares de mensajes de confirmación git commit predeterminados
-     * Aplastando los cambios en las solicitudes de tracción cuando sea necesario
-     * Uso del presente imperativo
+   * Sin prefijo de confirmación
+   * Estándares de mensajes de confirmación git commit predeterminados
+   * Aplastando los cambios en las solicitudes de tracción cuando sea necesario
+   * Uso del presente imperativo
 * [Sección Github](#github)
 * [Sección de Revisión](#revisión)
 
@@ -1073,12 +1073,12 @@ Las diferencias incluyen:
 Sugerir un backport de un módulo entre un repositorio OCA es posible, pero usted
 Debe respetar unas pocas reglas:
 
-  * Es necesario mantener la licencia del módulo codificada por Odoo SA
-  * Es necesario agregar la OCA como autor (y Odoo SA, por supuesto)
-  * Es necesario que el módulo "OCA compatible": PEP8, OCA convención y así
+   * Es necesario mantener la licencia del módulo codificada por Odoo SA
+   * Es necesario agregar la OCA como autor (y Odoo SA, por supuesto)
+   * Es necesario que el módulo "OCA compatible": PEP8, OCA convención y así
     Por lo que no va a romper nuestro CI como runbot, Travis y así.
-  * Debe agregar un descargo de responsabilidad en el archivo Léame con el texto siguiente:
+   * Debe agregar un descargo de responsabilidad en el archivo Léame con el texto siguiente:
 ```
-** Este módulo es un backport de Odoo SA y como tal, no está incluido en el OCA CLA. Eso significa que no tenemos una copia de los derechos de autor como todos los demás módulos OCA. **
+**Este módulo es un backport de Odoo SA y como tal, no está incluido en el OCA CLA. Eso significa que no tenemos una copia de los derechos de autor como todos los demás módulos OCA.**
 ¡Bienvenido!
 ```
