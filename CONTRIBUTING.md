@@ -834,11 +834,12 @@ Al incluir el passasumimos que nuestro algoritmo puede seguir funcionando despu�
 
 Si realmente necesita usar el passconsiderar la tala de esta excepción
 
-```tratar : 
-        frases , excepto : 
-        _logger.debug ( " ¿Por qué la excepción es seguro .... ' , exc_info = 1 ))
 ```
-    
+try:
+        sentences
+    except:
+        _logger.debug('Why the exception is safe....', exc_info=1))
+```    
 
 ## Javascript
 
