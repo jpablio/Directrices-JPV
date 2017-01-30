@@ -17,8 +17,8 @@ con adaptaciones para mejorar sus directrices y hacerlas más adecuadas para las
     * [Módulos](#módulos)
       * [Los números de versión](#Los-números-de-versión)
       * [Directorios](#directorios)
-      * [La nomenclatura de archivos](#la-nomenclatura-de-archivos)
-      * [Ganchos de instalación](#ganchos-de-instalación)
+      * [La Nomenclatura De Archivos](#la-nomenclatura-de-archivos)
+      * [Ganchos De Instalación](#ganchos-de-instalación)
     * [Archivos XML](#archivos XML)
       * [Formato](#Formato)
       * [Archivos](#Archivos)
@@ -78,7 +78,7 @@ con adaptaciones para mejorar sus directrices y hacerlas más adecuadas para las
      Y tambien en el texto el `author`.
 * No utilice el logotipo de su empresa ni su marca corporativa. Utilizando el sitio web, el autor y la lista de contribuidores es Suficiente para que la gente sepa acerca de su empleador/empresa y se contacte con usted.
 
-### Version Numbers
+### Los Números De Versión
 
 El número de versión en el manifiesto del módulo debe ser el de la Versión
 De Odoo (por ejemplo `10.0`) seguido por el módulo`x.y.z` números de versiónes.
@@ -142,7 +142,8 @@ Para `static files`, el patrón de nombre es` <nombre_módulo> .ext` (es decir,
 ...). No enlazar datos (imagenes, bibliotecas) fuera de Odoo: no utilice una url para
 Imagenes, la debe copiar en la base de código en su lugar.
 
-### Ganchos de instalación
+### Ganchos De Instalación
+
 Cuando tengamos **`pre_init_hook`**, **`post_init_hook`** y **`uninstall_hook`** 
 Se deben colocar en **`hooks.py`** situado en la raíz del módulo y en la
 Estructura de directorios y en el archivo de manifiesto se debe mantener igual que el
@@ -234,7 +235,7 @@ En los nombres de archivo sólo deben utilizarse `[a-z0-9_]`
 
 Utilice los permisos de archivo correctos: carpetas 755 y archivos 644.
 
-## Archivos XML
+### Archivos XML
 
 ### Formato
 
